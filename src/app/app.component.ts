@@ -27,10 +27,11 @@ export class AppComponent {
 
   OPEN() {
     this.tulisanOPEN = "toko buka";
+    alert("dibuka");
   }
 
   values = "";
   onKey(event) {
-    this.values += event.target.value + '|';
+    this.values += event.target.value + "|";
   }
 }
